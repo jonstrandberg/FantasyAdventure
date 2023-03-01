@@ -7,8 +7,8 @@ import Enums.Spell;
 public class Enchanter extends CharacterMagic {
 
 
-    public Enchanter(String name, String player, Spell spell, Dragon dragon){
-        super(name, player, spell, dragon);
+    public Enchanter(String name, Spell spell, Dragon dragon, String player){
+        super(name, spell, dragon, player);
 
     }
 

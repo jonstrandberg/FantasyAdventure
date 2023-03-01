@@ -10,8 +10,8 @@ public class CharacterMagic extends Character {
     private Dragon dragon;
     private String name;
 
-    public CharacterMagic(String name, String type, Spell spell, Dragon dragon){
-        super(type);
+    public CharacterMagic(String name, Spell spell, Dragon dragon, String player){
+        super(player);
         this.spell = spell;
         this.dragon = dragon;
         this.name = name;

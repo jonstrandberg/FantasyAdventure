@@ -8,7 +8,7 @@ public class Wizard extends CharacterMagic {
 
 
     public Wizard(String name, String player, Spell spell, Dragon dragon){
-        super(name, player, spell, dragon);
+        super(name, spell, dragon, player);
 
     }
 

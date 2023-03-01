@@ -18,7 +18,7 @@ public abstract class Character implements IAttack, IHealth {
     }
 
     @Override
-    public int getHealth() {
+    public int getHealth(int health) {
         return health;
     }
 

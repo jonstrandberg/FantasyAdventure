@@ -6,6 +6,7 @@ public enum Weapon {
     AXE(15),
     SPEAR(10),
     STONE(1),
+    BOW_AND_ARROW(20),
     SHIELD(0);
 
     private final int damage;

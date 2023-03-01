@@ -2,6 +2,6 @@ package Interfaces;
 
 public interface IHealth {
 
-    int getHealth();
+    int getHealth(int health);
 
 }
