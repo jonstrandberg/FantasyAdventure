@@ -16,6 +16,10 @@ public class Wizard extends CharacterMagic {
         return  getSpellDamage() + 10;
     }
 
+    public int dragonSpellDamage(){
+        return getDragonDamage() + 5;
+    }
+
 
 
 

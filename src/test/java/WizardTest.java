@@ -9,8 +9,6 @@ import static org.junit.Assert.assertEquals;
 public class WizardTest {
 
     Wizard wizard;
-    Dragon dragon;
-    Spell spell;
 
     @Before
     public void setUp(){
@@ -42,5 +40,9 @@ public class WizardTest {
       assertEquals(35, wizard.wizardSpellDamage());
     }
 
+    @Test
+    public void canGetDragonDamage(){
+        assertEquals(35, wizard.dragonSpellDamage());
+    }
 
 }
